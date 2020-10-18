@@ -22,7 +22,7 @@ bio: My research interests include statistics, machine learning, deep learning.
 
 interests:
 - Singular learning theory
-- Continuous depth neural network
+- Continuous depth neural networks
 - Deep generative modeling
 
 education:
@@ -48,7 +48,7 @@ social:
   link: https://scholar.google.com/citations?user=Udv9jsIAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/susanwei
+  link: https://github.com/susanwe
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
