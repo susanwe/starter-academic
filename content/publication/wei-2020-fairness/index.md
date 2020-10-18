@@ -30,7 +30,7 @@ image:
 projects: []
 publishDate: '2020-10-18T13:59:34.291017Z'
 publication_types:
-- '2'
+- '3'
 abstract: ''
 publication: '*arXiv preprint arXiv:2008.10797*'
 ---
