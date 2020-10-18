@@ -13,7 +13,7 @@ tags: []
 categories: []
 date: '2020-01-01'
 lastmod: 2020-10-18T16:59:34+03:00
-featured: false
+featured: true
 draft: false
 
 # Featured image
@@ -32,7 +32,7 @@ image:
 projects: []
 publishDate: '2020-10-18T13:59:34.126152Z'
 publication_types:
-- '2'
+- '1'
 abstract: ''
 publication: '*arXiv preprint arXiv:2006.10330*'
 ---
