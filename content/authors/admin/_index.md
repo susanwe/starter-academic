@@ -68,4 +68,4 @@ user_groups:
 - Visitors
 ---
 
-Susan Wei is a lecturer in the School of Mathematics and Statistics at the University of Melbourne. Her research interests include statistics, machine learning, and deep learning. 
+Susan Wei is a lecturer in the School of Mathematics and Statistics at the University of Melbourne. She currently holds a Discovery Early Career Researcher Award (DECRA) from the Australian Research Council (ARC). Her research interests include statistics, machine learning, and deep learning. 
