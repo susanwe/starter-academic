@@ -34,5 +34,5 @@ publishDate: '2020-10-18T13:59:34.126152Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*arXiv preprint arXiv:2006.10330*'
+publication: 'Advances in Neural Information Processing Systems 33'
 ---
