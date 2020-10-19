@@ -11,7 +11,7 @@ authors:
 - Marc Niethammer
 tags: []
 categories: []
-date: '2020-01-01'
+date: '2020-12-01'
 lastmod: 2020-10-18T16:59:34+03:00
 featured: true
 draft: false
