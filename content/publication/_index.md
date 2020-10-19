@@ -6,7 +6,7 @@ title: Publications
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-# view: 1
+view: 1
 
 # List format.
 #   0 = Simple
@@ -14,7 +14,7 @@ title: Publications
 #   2 = APA
 #   3 = MLA
 #   4 = Stream
-list_format = 0
+# list_format = 0
 
 # Optional header image (relative to `static/media/` folder).
 header:
