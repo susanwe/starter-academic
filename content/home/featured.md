@@ -11,14 +11,6 @@ weight = 40  # Order that this section will appear.
 title = "Featured Work"
 subtitle = ""
 
-# List format.
-#   0 = Simple
-#   1 = Detailed
-#   2 = APA
-#   3 = MLA
-#   4 = Stream
-list_format = 1
-
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "publication"
@@ -45,7 +37,7 @@ list_format = 1
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 3
+  view = 1
 
 
 
