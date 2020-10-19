@@ -3,28 +3,7 @@
 
 title: Empirical evolution equations
 subtitle: ''
-summary: 'Evolution equations comprise a broad framework for describing
-the dynamics of a system in a general state space: when the state
-space is finite-dimensional, they give rise to systems of ordinary differential
-equations; for infinite-dimensional state spaces, they give rise to partial
-differential equations. Several modern statistical and machine learning
-methods concern the estimation of objects that can be formalized as solutions
-to evolution equations, in some appropriate state space, even if not
-stated as such. The corresponding equations, however, are seldom known
-exactly, and are empirically derived from data, often by means of nonparametric
-estimation. This induces uncertainties on the equations and
-their solutions that are challenging to quantify, and moreover the diversity
-and the specifics of each particular setting may obscure the path for
-a general approach. In this paper, we address the problem of constructing
-general yet tractable methods for quantifying such uncertainties, by
-means of asymptotic theory combined with bootstrap methodology. We
-demonstrates these procedures in important examples including gradient
-line estimation, diffusion tensor imaging tractography, and local principal
-component analysis. The bootstrap perspective is particularly appealing as
-it circumvents the need to simulate from stochastic (partial) differential
-equations that depend on (infinite-dimensional) unknowns. We assess the
-performance of the bootstrap procedure via simulations and find that it
-demonstrates good finite-sample coverage.'
+summary: ''
 authors:
 - Susan Wei
 - Victor M Panaretos
