@@ -11,6 +11,14 @@ weight = 40  # Order that this section will appear.
 title = "Featured Work"
 subtitle = ""
 
+# List format.
+#   0 = Simple
+#   1 = Detailed
+#   2 = APA
+#   3 = MLA
+#   4 = Stream
+list_format = 1
+
 [content]
   # Page type to display. E.g. post, talk, or publication.
   page_type = "publication"
@@ -38,7 +46,10 @@ subtitle = ""
   #   3 = Card
   #   4 = Citation (publication only)
   view = 3
-  
+
+
+
+
 [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
