@@ -1,0 +1,418 @@
+
+\documentclass{harnon-cv}
+
+\usepackage{marvosym} % For cool symbols.
+\usepackage[backend=bibtex,natbib=true,style=mybibstyle,citestyle=authoryear,dashed=false,sorting=ydnt,maxbibnames=99]{biblatex} 
+% sorting=ydnt: Sort by year (descending), name, title
+% style=mybibstyle: remove "In:" before journal and add quotes around article title
+
+\bibliography{myPublications} 
+
+
+\DeclareNameAlias{sortname}{last-first}
+
+	\defbibenvironment{nodis} % suppresses letters after year
+  {\list
+     {}
+     {\setlength{\leftmargin}{\bibhang}%
+      \setlength{\itemindent}{-\leftmargin}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}}
+  {\endlist}
+  {\clearfield{extrayear}\item}
+	
+	
+	\renewbibmacro*{volume+number+eid}{%
+  \printfield{volume}%
+%  \setunit*{\adddot}% DELETED
+  \setunit*{\addnbspace}% NEW (optional); there's also \addnbthinspace
+  \printfield{number}%
+  \setunit{\addcomma\space}%
+  \printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+
+
+	% personal details
+	\author{Susan Wei}  % OR - \yourname{My Name}
+	\yournumber{\Telefon\ +61 3 9013 5231}
+	\youremail{\Letter\ \href{mailto:susan.wei@unimelb.edu.au}{susan.wei\textrm{@}unimelb.edu.au}}
+	\youraddress{School of Mathematics and Statistics \\
+		Room 109, Old Geology South
+University of Melbourne \\
+Victoria 3010\\
+Australia}
+	%\yourwebsite{http://sph.umn.edu/faculty1/bio/name/susan-wei/}
+	
+	\recenthistory{Research interests: statistics, machine learning, deep learning}
+	
+	\begin{document}
+	
+\setlength{\bibitemsep}{\baselineskip}
+
+		\maketitle
+		
+		%%% 
+		\addheadertext{Education}
+		\starttimeline 
+			%%
+			\timelineitem{2014}{
+							Ph.D., Statistics \\ 
+							University of North Carolina at Chapel Hill \\ 
+							Advisors: Michael R. Kosorok and J.S. Marron  							
+			}
+			\timelinespacer
+			%%
+			\timelineitem{2009}{
+							B.A., Mathematics with Honors\\ 
+							University of California at Berkeley \\ 
+						  Study abroad: Film Studies, Cambridge University, Summer 2005
+			}
+			\stoptimeline
+		%%% 
+		
+		%%% 
+		\addheadertext{Professional Experience}
+		\starttimeline 
+			%%
+			\timelineitem{2018 -- }{
+				Lecturer \\ 
+				School of Mathematics and Statistics \\ 
+				University of Melbourne, Australia
+			}
+			\timelinespacer	
+			%%
+			\timelineitem{2016 -- 2018}{
+							Assistant Professor \\ 
+							Division of Biostatistics \\ 
+							University of Minnesota, Twin Cities
+			}
+			\timelinespacer
+			%%
+			\timelineitem{2014 -- 2015}{
+							Postdoctoral Researcher\\ 
+							Institute of Mathematics \\
+							\'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL), Switzerland \\ 
+							Advisor: Victor Panaretos
+			}
+			\stoptimeline
+	
+		%%% 
+
+		\addheadertext{Preprints}
+		\nocite{*}
+		\printbibliography[heading=none, keyword = {preprint}, env=nodis]
+		
+		\addheadertext{Publications}
+		\nocite{*}
+		\printbibliography[heading=none,keyword={Accepted},env=nodis]
+	
+		%%% 
+%		\addheadertext{In revision}
+%		\nocite{*}
+%		\printbibliography[heading=none, keyword ={revision}, env=nodis]
+
+
+
+
+%		\addheadertext{In preparation}
+%		\nocite{*}
+%		\printbibliography[heading=none, keyword = {prep}, env=nodis]
+%
+
+		%%%
+		\addheadertext{Honors and Awards}
+		\starttimeline		
+		\timelineitem{2019-2021}{
+			 Discovery Early Career Researcher Award (DECRA) 
+			\begin{itemize}
+				\item  Australian Research Council (ARC)
+			\end{itemize}
+		}
+		\timelinespacer
+		\timelineitem{2018}{
+			Andrew Sisson Fund
+			\begin{itemize}
+				\item  University of Melbourne
+			\end{itemize}
+		}
+		\timelinespacer
+		\timelineitem{2014}{
+			Institute of Mathematical Statistics (IMS) Travel Award
+			\begin{itemize}
+				\item IMS Annual Meeting 
+			\end{itemize}
+		}
+		\timelinespacer
+		\timelineitem{2013}{
+		Student Travel Grant
+			\begin{itemize}
+				\item 10th International Conference on Health Policy Statistics \\
+			\end{itemize}
+		NSF Graduate Research Opportunities Worldwide Award
+			\begin{itemize}
+				\item Provided funding for research visit to the University of Tromso, Norway \\
+			\end{itemize}		
+		Student Paper Award
+			\begin{itemize}
+				\item American Statistical Association Section on Statistical Learning and Data Mining 
+			\end{itemize}			
+		}
+		\timelinespacer
+		\timelineitem{2011--2014}{
+		NSF Graduate Research Fellowship
+			\begin{itemize}
+				\item Highly competitive three-year grant providing stipend, tuition and travel funds 
+			\end{itemize}
+		}
+		\timelinespacer{
+		\timelineitem{2004--2008}{
+		Regents' and Chancellor's Scholar at University of California at Berkeley
+			\begin{itemize}
+				\item Top 1 percent of incoming freshmen are invited to interview 
+			\end{itemize}
+	}
+		\stoptimeline
+			
+				
+					
+		%%% 
+		\addheadertext{Presentations in Conferences/Workshops}
+		\begin{itemize}
+			\item \textit{WNAR}, "The Change-Plane Cox Model" (Invited), Santa Fe, New Mexico, June 2017
+			\item \textit{Workshop on Functional Data Analysis}, ``Empirical Evolution Equations" (Invited), Les Diablerets, Switzerland, May 2016
+			\item \textit{SIAM Conference on Uncertainty Quantification},``Empirical Evolution Equations" (Contributed), Lausanne, Switzerland, April 2016
+			\item \textit{8th International Conference of the ERCIM WG on Computational and Methodological Statistics}, ``Empirical Evolution Equations'' (Invited), London, UK, December 2015
+			\item \textit{Methodological advances in Statistics related to Big Data}, ''Empirical Evolution Equations'' (Contributed), Castro Urdiales, Spain, June 2015
+			\item \textit{2014 IMS Annual Meeting}, "Latent Supervised Learning for Treatment Effect Heterogeneity" (Contributed), Sydney, Australia, July 2014
+			\item \textit{The 3rd Institute of Mathematical Statistics Asia Pacific Rim Meeting},''DiProPerm'' (Invited), Taipei, Taiwan, June 2014
+			\item \textit{2014 ENAR Spring Meeting}, "Latent Supervised Learning for Treatment Effect Heterogeneity" (Contributed), Baltimore, Maryland, May 2014
+			\item \textit{10th International Conference on Health Policy Statistics}, "Latent Supervised Learning for Survival Data" (Poster), Chicago, Illinois, October 2013
+			\item \textit{Joint Statistical Meeting}, "Latent Supervised Learning" (Contributed),  Montreal, Canada, August 2013
+		\end{itemize}
+				
+		%%% 
+		\addheadertext{Invited Seminars and Presentations}
+		\begin{itemize}
+			%\item Empirical Evolution Equations. Department of Mathematics, Statistics, and Computer Science, St. Olaf College (2018).
+			\item Reinforcement learning for functional state spaces with application to Type 1 Diabetes. Women in Data Science (WiDS) Conference, Institute for Mathematics and its Applications (IMA) (2018).
+			\item Empirical Evolution Equations. Department of Computer Science and Engineering, University of Minnesota (2018).
+			\item Empirical Evolution Equations. Department of Mathematics and Statistics, University of Melbourne (2017).
+			\item Empirical Evolution Equations. Department of Statistics, University of California Riverside (2017).
+			\item Empirical Evolution Equations. Department of Statistics, University of Minnesota (2016).
+			\item Introduction to Machine Learning. Nestl\'{e} Institute of Health Sciences, Lausanne (2014).
+			\item Latent Supervised Learning. Institute of Mathematics, \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne, Lausanne (2014).
+			\item Latent Supervised Learning. Department of Statistics and Applied Probability, University of California at Santa Barbara (2013).					
+			\item Latent Supervised Learning. Department of Statistics, University of Pittsburgh (2013).								
+			\item Latent Supervised Learning. Department of Biostatistics, University of Pittsburgh (2013).							
+			\item Latent Supervised Learning. Division of Biostatistics, University of Minnesota (2013).				
+			\item Latent Supervised Learning. Division of Biostatistics, Yale University (2013).		
+			\item Latent Supervised Learning. School of Mathematical Sciences, Ohio State University (2013).
+			\item Latent Supervised Learning. Department of Statistics, University of California at Davis (2013).		
+			\item Latent Supervised Learning. Department of Statistics and Applied Probability, National University of Singapore (2013).
+			\item Latent Supervised Learning. Department of Economics, University of Mannheim (2013).
+			\item Latent Supervised Learning. School of Mathematical Sciences, University of Nottingham (2013).
+		\end{itemize}
+		
+		
+		%%% 
+		\addheadertext{Research Experience}
+		\starttimeline
+			%%
+			\timelineitem{Summer 2013}{
+			Visiting Researcher \\
+			Tromso Telemedicine Laboratory, Norway
+			}
+			\timelinespacer
+			%%
+			\timelineitem{2009--2013}{
+			Research Assistant \\
+			Melanoma Group, University of North Carolina at Chapel Hill
+			}
+			\timelinespacer
+			%%
+			\timelineitem{Summer 2010}{
+			Research Assistant \\
+			School of Dentistry, University of North Carolina at Chapel Hill			
+			}
+			\timelinespacer			
+			%%
+			\timelineitem{Summer 2008}{
+			Research Experience for Undergraduates (REU) participant \\
+			Program on geometric group theory, University of Illinois at Urbana-Champaign
+			}
+%			\timelinespacer
+		\stoptimeline
+		
+		%%% 
+		\addheadertext{Teaching Experience}
+		\starttimeline
+			\timelineitem{2016-2018}{
+				Instructor, University of Minnesota
+				\begin{itemize}
+					\item {Advanced Statistical Inference (PhD course) Spring 2017 and 2018}
+					\item {Advanced Regression and Design (PhD/MS course) Spring 2018}
+				\end{itemize}
+			}
+			\timelinespacer
+			%%
+			\timelineitem{Fall 2014}{
+			Instructor, \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL)
+			\begin{itemize}
+						\item {Principles of Statistical Inference (PhD course), co-taught with Anthony Davison}
+			\end{itemize}
+			}
+			\timelinespacer
+			%%
+			\timelineitem{2009--2010}{
+			Instructional Assistant, University of North Carolina at Chapel Hill 
+			\begin{itemize}
+						\item {Statistics, Fall 2009, Professor Ross Leadbetter}
+						\item {Statistics, Spring 2010, Professor Shankar Bhamidi}					
+			\end{itemize}
+			}
+			\timelinespacer
+			%%
+			\timelineitem{2007--2008}{
+			Undergraduate Student Instructor, University of California at Berkeley
+			\begin{itemize}
+						\item {Calculus, Spring 2007, Professor Ole Hald}
+						\item {Linear Algebra, Fall 2007, Professor Ming Gu}
+						\item {Statistics, Spring 2008, Professor Roger Purves}
+						\item {Statistics, Fall 2008, Professor Ani Adhikari}
+			\end{itemize}
+			}
+			\timelinespacer
+			%%
+			\timelineitem{2004--2007}{
+				DeCal Course Instructor, University of California at Berkeley 
+				\begin{itemize}
+						\item The DeCal program is a collection of student-created and student-run courses at the University of California at Berkeley 
+						\item Created and taught class on the mathematics of the Rubik's Cube
+				\end{itemize}
+			}
+			\timelinespacer
+		\stoptimeline
+		
+		
+%		\addheadertext{Students supervised}
+%		\begin{itemize}
+%			\item ???
+%		\end{itemize}
+		
+
+		
+		
+		
+		%%% 
+		\addheadertext{Professional Services}
+		\begin{itemize}
+			\item In 2016, represented the University of Minnesota in support of an USAID-sponsored one-year Masters of Public Health degree at Hanoi Medical University, Vietnam
+			\begin{itemize}
+				\item Helped pilot the statistics course 
+			\end{itemize}
+			\item Reviewer for Biometrika, the Journal of the Royal Statistical Society, the Journal of Machine Learning Research; the Journal of Multivariate Analysis; Computational Statistics and Data Analysis
+			\item Contributor to HealthNewsReview.org
+			\item Committees
+				\begin{itemize}
+				\item Diversity Equity Action Leadership Team, School of Public Health, University of Minnesota (2016-2018)
+				\item Doctoral Dissertation Fellowship, School of Public Health, University of Minnesota (2016-2018)
+				\item Exam committee, Division of Biostatistics, University of Minnesota (2016-2018)
+				\item Recruiting committee, Division of Biostatistics, University of Minnesota (2016-2018)
+				\item MSc Data Science Curriculum committee, School of Mathematics and Statistics (2018-present)
+				\item Diversity and Inclusion committee, , School of Mathematics and Statistics (2018-present)
+				\end{itemize}
+		\end{itemize}
+		
+		\addheadertext{Student Supervision}
+		\begin{itemize}
+			\item Master's students
+			\begin{itemize}
+				\item Alexandre Mosching, \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL) (2016)
+				\item John Ery, \'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne (EPFL) (2015)
+			\end{itemize}			
+			\item PhD students
+			\begin{itemize}
+				\item Hui Li, University of Melbourne (2018 to present)
+			\end{itemize}
+		\end{itemize}
+		
+		%% 
+		\addheadertext{Work Experience}
+		\starttimeline
+			\timelineitem{2007--2008}{
+				Quantitative analyst, Weatherbill, San Francisco, CA
+			}
+			\timelinespacer
+
+			\timelineitem{Summer 2007}{
+				Actuarial intern, Mercer Human Resource Consulting, San Francisco, CA
+			}
+			\timelinespacer
+
+			\timelineitem{Summer 2006}{
+				Quality assurance intern, Omneon Video Networks, Sunnyvale, CA
+			}
+			\timelinespacer
+		\stoptimeline
+		
+		%%% 
+		\addheadertext{Professional Memberships}
+		\begin{itemize}
+			\item American Statistical Association (2012--present)
+			\item Eastern North American Region, International Biometric Society (2012--present)
+			\item Institute of Mathematical Sciences (2012--present)
+		\end{itemize}
+	
+
+	
+
+		
+	
+		%\newpage
+		%%%
+		\addheadertext{References}
+	\begin{tabular}{lr}
+\\
+\begin{minipage}[t]{3in}
+Michael R. Kosorok (PhD advisor)\\
+Department of Biostatistics \\
+University of North Carolina \\
+Chapel Hill, NC 27599\\
+\Telefon\ +1 919 966 8107\\
+\Letter\ \href{mailto:kosorok@bios.unc.edu}{kosorok\textrm{@}bios.unc.edu}
+\end{minipage}
+&
+\begin{minipage}[t]{3in}
+Fred Godtliebsen\\
+Faculty of science and technology \\
+Department of Mathematics and Statistics \\
+Arctic University of Norway (formerly University of Troms\o)\\
+Troms\o, Norway\\
+\Telefon\ +47 776 44019\\
+\Letter\ \href{mailto:fred.godtliebsen@uit.no}{fred.godtliebsen@\textrm{@}uit.no}
+\end{minipage}
+\\
+\\
+\\
+\begin{minipage}[t]{3in}
+J.S. Marron (PhD advisor) \\
+Department of Statistics and Operations Research \\
+University of North Carolina \\
+Chapel Hill, NC 27599\\
+\Telefon\ +1 919 962 2188\\
+\Letter\ \href{mailto:marron@unc.edu}{marron\textrm{@}unc.edu}
+\end{minipage}
+&
+\begin{minipage}[t]{3in}
+Victor Panaretos \\
+Institute of Mathematics \\
+\'{E}cole Polytechnique F\'{e}d\'{e}rale de Lausanne \\
+Lausanne, Switzerland\\
+\Telefon\ +41 21 69 32597\\
+\Letter\ \href{mailto:victor.panaretos@epfl.ch}{victor.panaretos\textrm{@}epfl.ch}
+\end{minipage}
+
+
+\end{tabular}
+	\end{document}

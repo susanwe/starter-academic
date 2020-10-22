@@ -1,0 +1,821 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{ydnt/global/}
+  \entry{bloomfield2020automating}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=BNJ}{%
+         family={Bloomfield},
+         familyi={B\bibinitperiod},
+         given={Nathaniel\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=mi}{%
+         prefix={\mkbibbold{Wei, Susan}},
+         prefixi={m\bibinitperiod},
+         family={i},
+         familyi={i},
+      }}%
+      {{hash=WB}{%
+         family={Woodham},
+         familyi={W\bibinitperiod},
+         given={Bartholomew},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wilkinson},
+         familyi={W\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{preprint}
+    \strng{namehash}{BNJ+1}
+    \strng{fullhash}{BNJimWBWPRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \verb{eprint}
+    \verb 2008.09289
+    \endverb
+    \field{title}{Automating the assessment of biofouling in images using
+  expert agreement as a gold standard}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2020}
+  \endentry
+
+  \entry{wei2020fairnessaccuracy}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Niethammer},
+         familyi={N\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{preprint}
+    \strng{namehash}{mNM1}
+    \strng{fullhash}{mNM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \verb{eprint}
+    \verb 2008.10797
+    \endverb
+    \field{title}{The Fairness-Accuracy Pareto Front}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2020}
+  \endentry
+
+  \entry{vialard2020shooting}{incollection}{}
+    \name{author}{4}{}{%
+      {{hash=VFX}{%
+         family={Vialard},
+         familyi={V\bibinitperiod},
+         given={François-Xavier},
+         giveni={F\bibinitperiod-X\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kwitt},
+         familyi={K\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Niethammer},
+         familyi={N\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Curran Associates, Inc.}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{VFX+1}
+    \strng{fullhash}{VFXKRWSNM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{Advances in Neural Information Processing Systems 33}
+    \field{title}{A Shooting Formulation of Deep Learning}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Myhre2018}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=MJN}{%
+         family={Myhre},
+         familyi={M\bibinitperiod},
+         given={Jonas\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=LIK}{%
+         family={Launonen},
+         familyi={L\bibinitperiod},
+         given={Ilkka\bibnamedelima Kalervo},
+         giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Godtliebsen},
+         familyi={G\bibinitperiod},
+         given={Fred},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{MJN+1}
+    \strng{fullhash}{MJNLIKmGF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{2018 IEEE 28th International Workshop on Machine Learning
+  for Signal Processing (MLSP)}
+    \field{title}{Controlling Blood Glucose Levels In Patients With Type 1
+  Diabetes Using Fitted Q-Iterations And Functional Features}
+    \list{location}{1}{%
+      {Aalborg, Denmark}%
+    }
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Ngo2018}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=NPD}{%
+         family={Ngo},
+         familyi={N\bibinitperiod},
+         given={Phuong\bibnamedelima D.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Holubova},
+         familyi={H\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Muzik},
+         familyi={M\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Godtliebsen},
+         familyi={G\bibinitperiod},
+         given={Fred},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{NPD+1}
+    \strng{fullhash}{NPDmHAMJGF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{booktitle}{IEEE Biomedical and Health Informatics}
+    \field{title}{Implementation Framework for the Reinforcement-Learning Based
+  Optimal Control Algorithm on Patients with Type-1 Diabetes}
+    \list{location}{1}{%
+      {Las Vegas, USA}%
+    }
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Wei2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WS}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KMR}{%
+         family={Kosorok},
+         familyi={K\bibinitperiod},
+         given={Michael\bibnamedelima R},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{WSKMR1}
+    \strng{fullhash}{WSKMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{4}
+    \field{pages}{891\bibrangedash 903}
+    \field{title}{The change-plane Cox model}
+    \field{volume}{105}
+    \field{journaltitle}{Biometrika}
+    \field{year}{2018}
+  \endentry
+
+  \entry{WeiPan2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WS}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PVM}{%
+         family={Panaretos},
+         familyi={P\bibinitperiod},
+         given={Victor\bibnamedelima M.},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{WSPVM1}
+    \strng{fullhash}{WSPVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \verb{doi}
+    \verb 10.1214/17-EJS1382
+    \endverb
+    \field{issn}{1935-7524}
+    \field{number}{1}
+    \field{pages}{249\bibrangedash 276}
+    \field{title}{Empirical evolution equations}
+    \field{volume}{12}
+    \field{journaltitle}{Electron. J. Statist.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Caspi2017}{article}{}
+    \name{author}{7}{}{%
+      {{hash=CCE}{%
+         family={Caspi},
+         familyi={C\bibinitperiod},
+         given={Caitlin\bibnamedelima Eicher},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Shanafelt},
+         familyi={S\bibinitperiod},
+         given={Amy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={Nicole},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=HMO}{%
+         family={Hearst},
+         familyi={H\bibinitperiod},
+         given={Mary\bibnamedelima O.},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=NMS}{%
+         family={Nanney},
+         familyi={N\bibinitperiod},
+         given={Marilyn\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{CCE+1}
+    \strng{fullhash}{CCEWQSALNmHMONMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{abstract}{%
+    BACKGROUND Little is known about adolescents' food purchasing behaviors in
+  rural areas. This study examined whether purchasing food at
+  stores/restaurants around schools was related to adolescents' participation
+  in school breakfast programs and overall diet in rural Minnesota. METHODS
+  Breakfast-skippers enrolled in a group-randomized intervention in 2014 to
+  2015 (N = 404 from 8 schools) completed 24-hour dietary recalls and pre/post
+  surveys assessing food establishment purchase frequency. Healthy Eating Index
+  Scores (HEI-2010) were calculated for each student. Student-level school
+  breakfast participation (SBP) was obtained from school food service records.
+  Mixed-effects regression models estimated: (1) whether SBP was associated
+  with store/restaurant use at baseline, (2) whether an increase in SBP was
+  associated with a decrease in store/restaurant use, and (3) whether
+  stores/restaurant use was associated with HEI-2010 scores at baseline.
+  RESULTS Students with increased SBP were more likely to decrease fast-food
+  restaurant purchases on the way home from school (OR 1.017, 95{\%} CI 1.005,
+  1.029), but were less likely to decrease purchases at food stores for
+  breakfast (OR 0.979, 95{\%} CI 0.959, 0.999). Food establishment use was
+  associated with lower HEI-2010 dairy component scores (p = .017). CONCLUSIONS
+  Increasing participation in school breakfast may result in modest changes in
+  purchases at food establishments.%
+    }
+    \field{number}{10}
+    \field{pages}{723\bibrangedash 731}
+    \field{title}{{School Breakfast Program Participation and Rural
+  Adolescents' Purchasing Behaviors in Food Stores and Restaurants}}
+    \field{volume}{87}
+    \field{journaltitle}{Journal of School Health}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Godtliebsen2017}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GF}{%
+         family={Godtliebsen},
+         familyi={G\bibinitperiod},
+         given={Fred},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SSO}{%
+         family={Skrovseth},
+         familyi={S\bibinitperiod},
+         given={Stein\bibnamedelima O.},
+         giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{GFSSOm1}
+    \strng{fullhash}{GFSSOm1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{1}
+    \field{pages}{36\bibrangedash 37}
+    \field{title}{Discussion on Statistical Scale Space Methods}
+    \field{volume}{85}
+    \field{journaltitle}{International Statistical Review}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Irimia2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=IA}{%
+         family={Irimia},
+         familyi={I\bibinitperiod},
+         given={Andrei},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Wei, Susan}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lu},
+         familyi={L\bibinitperiod},
+         given={Nanshu},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MCM}{%
+         family={Moore},
+         familyi={M\bibinitperiod},
+         given={Constance\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KDN}{%
+         family={Kennedy},
+         familyi={K\bibinitperiod},
+         given={David\bibnamedelima N.},
+         giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{IA+1}
+    \strng{fullhash}{IAtLNMCMKDN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{3}
+    \field{pages}{227\bibrangedash 230}
+    \field{title}{{Mobile Monitoring of Traumatic Brain Injury in Older Adults:
+  Challenges and Opportunities}}
+    \field{volume}{15}
+    \field{journaltitle}{Neuroinformatics}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Larson2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LN}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={Nicole},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=GK}{%
+         family={Grannon},
+         familyi={G\bibinitperiod},
+         given={Katherine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={\textbf{Wei, Susan}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=NMS}{%
+         family={Nanney},
+         familyi={N\bibinitperiod},
+         given={Marilyn\bibnamedelima S},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Caspi},
+         familyi={C\bibinitperiod},
+         given={Caitlin},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{LN+1}
+    \strng{fullhash}{LNWQGKtNMSCC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{2}
+    \field{pages}{125\bibrangedash 132}
+    \field{title}{A low-cost, grab-and-go breakfast intervention for rural high
+  school students: changes in School Breakfast Program participation among
+  at-risk students in Minnesota}
+    \field{volume}{50}
+    \field{journaltitle}{Journal of Nutrition Education and Behavior}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Wei2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=t}{%
+         family={\textbf{Wei, Susan}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Chihoon},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wichers},
+         familyi={W\bibinitperiod},
+         given={Lindsay},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MJS}{%
+         family={Marron},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{t+1}
+    \strng{fullhash}{tLCWLMJS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{2}
+    \field{pages}{549\bibrangedash 569}
+    \field{title}{Direction-Projection-Permutation for High-Dimensional
+  Hypothesis Tests}
+    \field{volume}{25}
+    \field{journaltitle}{Journal of Computational and Graphical Statistics}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Wei2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=m}{%
+         family={\mkbibbold{ Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=KMR}{%
+         family={Kosorok},
+         familyi={K\bibinitperiod},
+         given={Michael\bibnamedelima R.},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{mKMR1}
+    \strng{fullhash}{mKMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{503}
+    \field{pages}{957\bibrangedash 970 (Featured Article; An earlier draft won
+  a student paper award sponsored by the Statistical Learning and Data Mining
+  Section of the American Statistical Association)}
+    \field{title}{Latent Supervised Learning}
+    \field{volume}{108}
+    \field{journaltitle}{Journal of the American Statistical Association}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Miedema2012}{article}{}
+    \name{author}{9}{}{%
+      {{hash=MJ}{%
+         family={Miedema},
+         familyi={M\bibinitperiod},
+         given={Jayson},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Marron},
+         familyi={M\bibinitperiod},
+         given={J.S.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Niethammer},
+         familyi={N\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Borland},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Woosley},
+         familyi={W\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Coposky},
+         familyi={C\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=m}{%
+         family={\mkbibbold{ Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={Reisner},
+         familyi={R\bibinitperiod},
+         given={Howard},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TNE}{%
+         family={Thomas},
+         familyi={T\bibinitperiod},
+         given={Nancy\bibnamedelima E.},
+         giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Blackwell Publishing Ltd}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{MJ+1}
+    \strng{fullhash}{MJMJNMBDWJCJmRHTNE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{3}
+    \field{pages}{436\bibrangedash 444}
+    \field{title}{Image and statistical analysis of melanocytic histology}
+    \field{volume}{61}
+    \field{journaltitle}{Histopathology}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Wei2011}{article}{}
+    \name{author}{2}{}{%
+      {{hash=m}{%
+         family={\mkbibbold{ Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=NAB}{%
+         family={Nobel},
+         familyi={N\bibinitperiod},
+         given={Andrew\bibnamedelima B.},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \keyw{Accepted}
+    \strng{namehash}{mNAB1}
+    \strng{fullhash}{mNAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{sortinit}{7}
+    \field{sortinithash}{7}
+    \field{number}{495}
+    \field{pages}{931\bibrangedash 936}
+    \field{title}{Comment on ``Adaptive Confidence Intervals for the Test Error
+  in Classification"}
+    \field{volume}{106}
+    \field{journaltitle}{Journal of the American Statistical Association}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Wei2017c}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+    }
+    \keyw{prep}
+    \strng{namehash}{m1}
+    \strng{fullhash}{m1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{title}{Statistical Analysis of Tensor Lines}
+  \endentry
+
+  \entry{Wei2017a}{unpublished}{}
+    \name{author}{3}{}{%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=DMH}{%
+         family={Descary},
+         familyi={D\bibinitperiod},
+         given={Marie-Helene},
+         giveni={M\bibinitperiod-H\bibinitperiod},
+      }}%
+      {{hash=MJN}{%
+         family={Myhre},
+         familyi={M\bibinitperiod},
+         given={Jonas\bibnamedelima N.},
+         giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{prep}
+    \strng{namehash}{mDMHMJN1}
+    \strng{fullhash}{mDMHMJN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{title}{Random Projection Ensemble Clustering for Functional Data}
+  \endentry
+
+  \entry{Wei2017b}{unpublished}{}
+    \name{author}{3}{}{%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Rubin},
+         familyi={R\bibinitperiod},
+         given={Tomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Panaretos},
+         familyi={P\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{prep}
+    \strng{namehash}{mRTPV1}
+    \strng{fullhash}{mRTPV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{title}{Local Covariance Operator of Random Hilbert Elements}
+  \endentry
+
+  \entry{Phoung}{unpublished}{}
+    \name{author}{5}{}{%
+      {{hash=NPD}{%
+         family={Ngo},
+         familyi={N\bibinitperiod},
+         given={Phuong\bibnamedelima D.},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=m}{%
+         family={\mkbibbold{Wei, Susan}},
+         familyi={m\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Holubova},
+         familyi={H\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Muzik},
+         familyi={M\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GF}{%
+         family={Godtliebsen},
+         familyi={G\bibinitperiod},
+         given={Fred},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{submitted}
+    \strng{namehash}{NPD+1}
+    \strng{fullhash}{NPDmHAMJGF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{note}{Submitted to Diabetes Technology & Therapeutics}
+    \field{title}{Control of Blood Glucose for Type-1 Diabetes by Using
+  Reinforcement Learning with Feed-Forward Algorithm}
+  \endentry
+\endsortlist
+\endinput
