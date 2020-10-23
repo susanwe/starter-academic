@@ -3,7 +3,7 @@
 
 title: A Shooting Formulation of Deep Learning
 subtitle: ''
-summary: ''
+summary: 'Selected for oral presentation'
 authors:
 - François-Xavier Vialard
 - Roland Kwitt
