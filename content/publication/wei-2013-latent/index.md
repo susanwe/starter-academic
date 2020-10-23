@@ -3,7 +3,7 @@
 
 title: Latent supervised learning
 subtitle: ''
-summary: ''
+summary: 'Selected as Featured Article'
 authors:
 - Susan Wei
 - Michael R Kosorok
