@@ -14,6 +14,8 @@ lastmod: 2020-10-18T16:59:31+03:00
 featured: true
 draft: false
 
+url_code = "https://github.com/uncbiag/neuro_shooting"
+
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
