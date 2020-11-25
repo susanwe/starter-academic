@@ -48,7 +48,7 @@ social:
   link: https://scholar.google.com/citations?user=Udv9jsIAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/suswe
+  link: https://github.com/suswei
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 - icon: cv
