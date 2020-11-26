@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://susanwei.netlify.app/* https://www.susanwei.netlify.app/:splat 301!
